@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM</title>
+</head>
+<h1>You need to be authorized</h1> <hr> <br>
+<body>
+<h3> Please, input number your card and password... </h3> <br>
+<form method="post" action="/authorize">
+    <h3> Enter number<label> <input type="text" name="number" placeholder="number"></label> </h3>
+    <h3> Enter password<label> <input type="text" name="password" placeholder="password"></label> </h3>
+    <h3> <input type="submit" value="Authorize"> </h3>
+    <input type="text" name="en" value="en" hidden="hidden"> <br> <br>
+</form>
+<form method="post" action="/index.html">
+    <input type="submit" value="Назад">
+</form> <hr>
+<h3><em>"SHUTOVBANK" CHOICE SUCCESSFUL PEOPLE!</em></h3>
+</body>
+</html>
